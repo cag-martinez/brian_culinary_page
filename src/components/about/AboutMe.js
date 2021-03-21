@@ -1,13 +1,14 @@
 import React from "react";
-//import "about.css"
+import "./about.css"
 
 function AboutMe (){
     return(
         <div>
-        <div className="card mb-3" style={{maxWidth: "940px", justifyContent: "center", display: "flex"}}>
+            <div className="container" style={{justifyContent: "center", display: "flex"}}>
+        <div className="card mb-8" style={{maxWidth: "1000px", minWidth: "1000px", margin: "10px", justifyContent: "center", display: "flex"}}>
             <div className="row g-0">
                 <div className="col-md-4">
-                    <img src=" 250x250" alt=""></img>
+                    <img src="" alt=""></img>
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
@@ -16,6 +17,7 @@ function AboutMe (){
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         </div>
     )

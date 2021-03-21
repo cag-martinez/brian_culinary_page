@@ -1,5 +1,5 @@
 import React from "react";
-import Art from "../../assets/images/art.jpg";
+import brianCooking from "../../assets/images/brianCooking.jpg";
 // import "./header.css"
 
 function Header() {
@@ -7,13 +7,14 @@ function Header() {
     <div>
       <section className="header">
         <img
-          src={Art} alt=""
+          src={brianCooking} alt=""
           style={{
-            width: '100vw',
-            height: '30vh',
+            //width: '100vw',
+            height: '90vh',
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
             //opacity: "75%",
            // clipPath: "polygon(100% 0, 100% 75%, 69% 100%, 0 85%, 0 0)",
             backgroundAttachment: "fixed",
