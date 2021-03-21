@@ -5,29 +5,21 @@ import Art from "../../assets/images/art.jpg";
 function Header() {
   return (
     <div>
-      <section
-        className="header"
-        //     style={{
-        //     height: "50vh",
-        //     backgroundImage: "Art",
-        //     backgroundSize: "cover",
-        //     backgroundPosition: "center",
-        //     backgroundRepeat: "no-repeat",
-        //     opacity: "75%",
-        //     clipPath: "polygon(100% 0, 100% 75%, 69% 100%, 0 85%, 0 0)",
-        //     backgroundAttachment: "fixed",
-        //   }}
-      >
+      <section className="header">
         <img
-          src={Art}
+          src={Art} alt=""
           style={{
-            height: "50vh",
+            width: '100vw',
+            height: '30vh',
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
-            opacity: "75%",
-            clipPath: "polygon(100% 0, 100% 75%, 69% 100%, 0 85%, 0 0)",
+            //opacity: "75%",
+           // clipPath: "polygon(100% 0, 100% 75%, 69% 100%, 0 85%, 0 0)",
             backgroundAttachment: "fixed",
+            // imageRendering: "pixelated",
+            // imageRendering: "auto",
+            // imageRendering: "crisp-edges"
           }}
         />
       </section>
