@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css"
+import Map from "../../assets/images/map.png";
 
 function AboutMe (){
     return(
@@ -8,7 +9,7 @@ function AboutMe (){
         <div className="card mb-8" style={{maxWidth: "1000px", margin: "10px", justifyContent: "center", display: "flex"}}>
             <div className="row g-0">
                 <div className="col-md-4">
-                    <img src="" alt=""></img>
+                    <img src={Map} alt="" style={{width: "100%", height: "100%", display: "flex"}}></img>
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
