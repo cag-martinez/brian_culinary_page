@@ -9,18 +9,15 @@ function Header() {
         <img
           src={brianCooking} alt=""
           style={{
-            //width: '100vw',
+            width: '100vw',
             height: '90vh',
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundAttachment: "fixed",
-            //opacity: "75%",
+            opacity: "75%",
            // clipPath: "polygon(100% 0, 100% 75%, 69% 100%, 0 85%, 0 0)",
             backgroundAttachment: "fixed",
-            // imageRendering: "pixelated",
-            // imageRendering: "auto",
-            // imageRendering: "crisp-edges"
           }}
         />
       </section>
