@@ -16,6 +16,7 @@ function AboutMe() {
             margin: "10px",
             justifyContent: "center",
             display: "flex",
+            opacity: "100%"
           }}
         >
           <div className="row g-0">
@@ -28,7 +29,7 @@ function AboutMe() {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5> A little about me</h5>
+                <h5> Chef Brian Gomez</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                   porttitor libero augue, ut euismod augue mattis tincidunt.

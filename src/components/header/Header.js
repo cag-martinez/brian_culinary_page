@@ -10,7 +10,7 @@ function Header() {
           src={brianCooking} alt=""
           style={{
             width: '100vw',
-            height: '90vh',
+            height: '70vh',
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
