@@ -16,7 +16,7 @@ function Navbar() {
                 id="navbarDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
+                aria-expanded="true"
               >
                 Follow Me
               </a>
