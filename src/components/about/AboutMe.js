@@ -13,11 +13,12 @@ function AboutMe() {
           className="card mb-8"
           style={{
             maxWidth: "1000px",
-            margin: "-40px",
+            margin: "-200px",
             justifyContent: "center",
             display: "flex",
-            opacity: "100%"
-          }}
+            backgroundOpacity: "10%"
+            
+        }}
         >
           <div className="row g-0">
             <div className="col-md-4">

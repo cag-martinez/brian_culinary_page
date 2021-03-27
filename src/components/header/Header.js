@@ -9,7 +9,7 @@ function Header() {
         <img
           src={brianCooking} alt=""
           style={{
-            width: '100vw',
+            width: '98.5vw',
             height: '70vh',
             backgroundSize: "cover",
             backgroundPosition: "center",
