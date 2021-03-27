@@ -7,13 +7,13 @@ function AboutMe() {
     <div>
       <div
         className="container"
-        style={{ justifyContent: "center", display: "flex" }}
+        style={{ justifyContent: "center", display: "flex", padding: "-310px" }}
       >
         <div
           className="card mb-8"
           style={{
             maxWidth: "1000px",
-            margin: "10px",
+            margin: "-40px",
             justifyContent: "center",
             display: "flex",
             opacity: "100%"
