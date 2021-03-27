@@ -1,4 +1,7 @@
 .navbar {
     /* padding-top: -10px; */
     background-color: rgba(72, 70, 70, 0.906);
-}
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
